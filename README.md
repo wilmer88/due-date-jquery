@@ -26,5 +26,5 @@ code talk:
    then made a variable and asign its value to eaqual the savebuton 
    parent/chiled text value methods
    then we use localstorage to set the item by identifying it with this and the id then using json stringfy the saved text.
-![screenshot](./app.png)
+
 [this is the link to the page](https://wilmer88.github.io/due-date-jquery/)
