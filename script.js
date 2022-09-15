@@ -67,7 +67,17 @@ $(document).ready(function () {
       noteform5.setAttribute("class", "col-sm-10 past");
       noteform6.setAttribute("class", "col-sm-10 past");
       
+    }else{
+      noteform7.setAttribute("class", "col-sm-10 past");
+      noteform.setAttribute("class", "col-sm-10 past");
+      noteform2.setAttribute("class", "col-sm-10 past");
+      noteform3.setAttribute("class", "col-sm-10 past");
+      noteform4.setAttribute("class", "col-sm-10 past");
+      noteform5.setAttribute("class", "col-sm-10 past");
+      noteform6.setAttribute("class", "col-sm-10 past");
+
     }
+
 
   function pullingfromlocal() {
     var savedNote = JSON.parse(localStorage.getItem("nueve"));
